@@ -1,4 +1,4 @@
-## IBM Quantum Challenge 
+## IBM Quantum Challenges 
 
 These IBM Quantum challenges provided an ideal platform for me to explore various Quantum Computing Applications. And I secured Advance Badge among the pool of 2000+ participants across the world.
 
