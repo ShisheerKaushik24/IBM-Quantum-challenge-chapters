@@ -1,0 +1,60 @@
+name: quantumspring
+channels:
+  - conda-forge
+dependencies:
+  - python==3.9.11
+  - numpy==1.22.4
+  - sympy==1.7.1
+  - scipy==1.7.3
+  - matplotlib==3.5.1
+  - pylatexenc==2.10
+  - watermark==2.3.0
+  - jupyter 
+  - tqdm
+
+# To create this conda environment:
+## conda env create -n quantumspring environment.yml 
+
+# To manually install the above packages inside a conda env.:
+## $ conda update -yn base -c defaults conda
+## $ conda install python==3.9.11 
+## $ conda install -c conda-forge numpy==1.22.4
+## $ conda install -c anaconda sympy
+## $ conda install -c anaconda scipy
+## $ conda install matplotlib==3.5.1
+## $ conda install -c conda-forge pylatexenc==2.10
+## $ conda install -c conda-forge watermark==2.3.0
+## $ conda install -c anaconda jupyter
+## $ conda install -c conda-forge tqdm
+
+# Note that NumPy version 1.22.4 requires conda-forge channel.
+
+# External packages that must be installed via pip:
+# Note: Windows users should replace "python3" with "python".
+## $ conda update -yn base -c defaults conda
+## $ conda install -yc conda-forge pip==22.1.2
+## $ python3 -m pip install -U --upgrade pip 
+## $ python3 -m pip install -U qiskit[all]
+## $ python3 -m pip install -U qiskit-nature[pyscf]
+
+# To export the current environment package dependencies to a .yml file (suggested for sharing between users):
+## $ conda env export > environment.yml
+
+# To export only those packages installed with exact version specification:
+## $ conda env export --from-history -n <env_name_exist> > environment.yml
+
+# Command-Line Interface (CLI)
+## To show env. info: $ conda info
+## To show installed packages: $ conda list
+## To list a package info: $ conda list <package_name>
+## To remove the env.: $ conda remove -n <env_name_exists> --all
+
+# Checking installed versions:
+## $ python --version or $ python -V
+## $ conda list numpy
+## $ conda list matplotlib
+## $ conda list pylatexenc
+## $ conda list watermark
+## $ conda list jupyter
+## $ conda list qiskit
+## $ pip show qiskit-nature

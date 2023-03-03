@@ -1,0 +1,39 @@
+# DEPENDENCIES
+# This file defines the pip-equivalent package dependencies to be installed with either setup.cfg or setup.py modules, or via the command-line interface (CLI).
+# To install pip, run: "$ conda install -yc conda-forge pip==22.1.2" (conda env. on prem) or "$ apt install python3-pip" (Ubuntu-derivatives).
+
+# PACKAGES
+numpy==1.22.4
+sympy==1.7.1
+scipy==1.7.3
+matplotlib==3.5.1
+watermark==2.3.0 # IPython magic extension for versioning control between Colab notebooks.
+pylatexenc==2.10 # The 'pylatexenc' library is required to use 'MatplotlibDrawer'.
+jupyter #Run using: "$ jupyter notebook"
+tqdm # To display a progress bar.
+qiskit[all]
+pyscf
+
+# CLI - command-line interface
+# Note: the flags '--user' and '--version' can be abbreviated to '-U' and '-V', respectively.
+## To show the current pip version, run: $ pip --version
+## To upgrade pip, run: $ python3 -m pip install --user --upgrade pip 
+## To list installed packages, run: $ pip list
+## To install an individual package, run: $ python3 -m pip install --user <package-name>.
+## To show a package info, run: $ pip show <package-name>
+## To upgrade a package, run: $ python3 -m pip install --user --upgrade <package-name>==<version-number>
+## To uninstall packages, run: $ pip uninstall <package1> <package2>
+
+# If there is a SETUP.py file
+## The setup.py module reads this file and installs each package via the pip tool (a python package manager).
+## Alternatively, to manually install all dependencies on this file, run: $ python3 -m pip install -r requirements.txt
+## To manually update the dependencies of this file, run: $ python3 -m pip install -U -r requirements.txt
+
+# NOTES
+## Windows users should replace "python3" with "python".
+## The "--user" flag can be replaced by the abbreviated "-U" flag. 
+## The -m flag in "python3 -m pip" enforce the pip version tied to the active environment, i.e, instructs python to run pip as the __main__ module (script).
+## The 'pip install jupyter' command will install the Jupyter system, including the jupyter notebook, qtconsole, and the IPython kernel.
+## One should avoid 'pip install conda' since it will not give conda as a standalone application.
+## PySCF does not support native windows platform. See issue #750 at https://github.com/pyscf/pyscf/issues/750. 
+## To manually install PySCF on linux: $ python3 -m pip install pyscf --user
