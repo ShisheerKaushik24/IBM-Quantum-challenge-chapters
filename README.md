@@ -36,7 +36,7 @@
 </a>
 <br>
   
-# Project Description
+# Description
 
 The IBM Quantum Challenge is an annual event where participants from all over the world solve a series of quantum computing programming challenges using IBM's quantum computing systems. The challenges are designed to test participants' knowledge and skills in various areas of quantum computing. These IBM Quantum challenges [2021,2022] provided me an ideal platform for me to explore various Quantum Computing Applications. This repository presents the solutions to my challenge. And I secured Advance Badge among the pool of 2000+ participants across the world, the Achieved badges can be accessed here<br>1.[2021](https://www.credly.com/badges/ee9d8117-1da4-40d1-bd89-c84693c33ee1/public_url)<br>2.[2022](https://www.credly.com/badges/bddc30d7-81a3-4b84-b403-c38f35b60b75/public_url)
   
