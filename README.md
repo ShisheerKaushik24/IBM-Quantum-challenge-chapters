@@ -1,5 +1,5 @@
 <!-- Badges: -->
-[![License](https://img.shields.io/github/license/QuCAI-Lab/ibm2022-quantum-spring-challenge.svg?logo=CreativeCommons&style=flat-square)](https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters/LICENSE.md)
+[![License](https://img.shields.io/github/license/QuCAI-Lab/ibm2022-quantum-spring-challenge.svg?logo=CreativeCommons&style=flat-square)](https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters/blob/master/LICENSE.md)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-orange?style=flat-square)](https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters/graphs/commit-activity)
 
