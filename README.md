@@ -5,7 +5,7 @@
 
 <!-- Logo: -->
 <div align="center">
-  <a href="https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters"><img src="https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters/blob/master/asset/featured.png" height="300" width="500" /></a>
+  <a href="https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters"><img src="https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters/blob/master/asset/featured.png" height="500" width="700" /></a>
 </div>
 
 <!-- Title: -->
