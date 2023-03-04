@@ -8,6 +8,8 @@
   <a href="https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters"><img src="https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters/blob/master/asset/featured.png" height="500" width="700" /></a>
 </div>
 
+*<p align="center"><small>Source: IBM Quantum</small></p>*
+
 <!-- Title: -->
 <div align="center">
   <h1> <a href="https://challenges.quantum-computing.ibm.com/spring-2022"> IBM Quantum Challenge </a></h1>
