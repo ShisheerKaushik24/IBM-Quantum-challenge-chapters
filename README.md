@@ -95,6 +95,8 @@ python3 -m pip install --user --upgrade pip && python3 -m pip install -r require
 
 \[2] [IBM Quantum Spring Challenge 2022](https://github.com/qiskit-community/ibm-quantum-spring-challenge-2022)
   
+\[3] [IBM Quantum Spring Challenge 2023](https://github.com/qiskit-community/ibm-quantum-challenge-spring-2023)
+  
   
 # License
 
